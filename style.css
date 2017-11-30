@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.top-grey {
+  height: 2rem;
+  background-color: #5f5e63;
+  margin: 0;
+}
+.menu {
+  background-color: #e6e6ea;
+  height: 6rem;
+  margin: 0;
+  padding: 0.5rem 0 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #93117f;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.75rem;
+}
+.star {
+  color: #767376;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  vertical-align: top;
+}
+.nav {
+  margin-top: 2rem;
+}
+.nav-link,
+.link {
+  display: inline;
+  font-size: 1rem;
+  color: #93117f;
+  margin: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+.nav-link:hover {
+  background-color: #d8d8dc;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+.github,
+.github:hover {
+  background-color: #f4820a;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.text {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  color: #767376;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.dev {
+  color: #93117f;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding: 0.7rem 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  margin: 1rem;
+  font-weight: normal;
+  border: none;
+}
+.portfolio {
+  background-color: #f4820a;
+}
+.res,
+.port {
+  font-size: 1.5rem;
+}
+.port {
+  color: #fff;
+}
+.res {
+  font-weight: 300;
+}
+.resume:hover {
+  background-color: #eaeaf5;
+}
+.portfolio:hover {
+  background-color: #d47007;
+}
+.subtitle {
+  font-weight: 300;
+  color: #9a9999;
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 2.3rem;
+}
+.better {
+  font-weight: bold;
+}
+.line {
+  border: 0.05rem solid #9a9999;
+}
+.footer {
+  padding-top: 1rem;
+  color: #767376;
+}
+.footer-text-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0.8 3rem 0 3rem;
+}
+.footer-item {
+  font-size: 1rem;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+.footer-text {
+  margin-right: 3rem;
+}
+.fa {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #f4820a;
+  cursor: pointer;
+}
+.fa:hover {
+  color: #767376;
+}
+.fa:visited {
+  color: #9a9999;
+}
+/* style for smaller screens */
+@media only screen and (max-width: 900px) {
+  .logo {
+    font-size: 0;
+  }
+  .nav-link {
+    margin: 0.5rem;
+  }
+  .footer-icons {
+    margin-top: 0.2rem;
+  }
+  .footer {
+    padding-top: 0.2rem;
+  }
+  .footer-text-icons {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .footer-item {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    margin: 0.4rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-text-icons {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .footer-icons {
+    margin-top: 1rem;
+  }
+  .footer-item {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+}
